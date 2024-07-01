@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{E2261B31-8071-481F-AC3A-0208A85AC073}"
+	ProjectSection(SolutionItems) = preProject
+		01_Recyclable-and-Low-Fat-Products.sql = 01_Recyclable-and-Low-Fat-Products.sql
+		02_Find-Customer_Referee.sql = 02_Find-Customer_Referee.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5DE9C29-828C-480B-907D-EF277EAC0A9F}
+	EndGlobalSection
+EndGlobal
