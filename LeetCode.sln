@@ -19,6 +19,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{E2261B31-807
 		12_Students-and-Examinations.sql = 12_Students-and-Examinations.sql
 		13_Managers-with-at-least-5-Direct-Reports.sql = 13_Managers-with-at-least-5-Direct-Reports.sql
 		14_Confirmation-Rate.sql = 14_Confirmation-Rate.sql
+		15_Not-Boring-Movies.sql = 15_Not-Boring-Movies.sql
+		16_Average-Selling-Price.sql = 16_Average-Selling-Price.sql
+		17_Project-Employess-I.sql = 17_Project-Employess-I.sql
+		18_Percentage-of-Users-Attended-a-Contest.sql = 18_Percentage-of-Users-Attended-a-Contest.sql
+		19_Queries-Quality-and-Percentage.sql = 19_Queries-Quality-and-Percentage.sql
+		20_Monthly-Transactions-I.sql = 20_Monthly-Transactions-I.sql
 	EndProjectSection
 EndProject
 Global
