@@ -25,6 +25,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{E2261B31-807
 		18_Percentage-of-Users-Attended-a-Contest.sql = 18_Percentage-of-Users-Attended-a-Contest.sql
 		19_Queries-Quality-and-Percentage.sql = 19_Queries-Quality-and-Percentage.sql
 		20_Monthly-Transactions-I.sql = 20_Monthly-Transactions-I.sql
+		21_Immediate_Food_Delivery_II.sql = 21_Immediate_Food_Delivery_II.sql
+		22_Game-Play-Analysis-IV.sql = 22_Game-Play-Analysis-IV.sql
+		23_Number-of-Unique-Subjects-Taught-by-Each-Teacher.sql = 23_Number-of-Unique-Subjects-Taught-by-Each-Teacher.sql
+		24_User-Activity-for-the-Past-30-Days-I.sql = 24_User-Activity-for-the-Past-30-Days-I.sql
+		25_Product_Sales_Analysis_III.sql = 25_Product_Sales_Analysis_III.sql
+		26_Classes-More-Than-5-Students.sql = 26_Classes-More-Than-5-Students.sql
+		27_Find-Followers-Count.sql = 27_Find-Followers-Count.sql
+		28_Biggest-Single-Number.sql = 28_Biggest-Single-Number.sql
+		29_Customers-Who-Bought-All-Products.sql = 29_Customers-Who-Bought-All-Products.sql
+		30_The-Number-of-Employees-Which-Report-to-Each-Employee.sql = 30_The-Number-of-Employees-Which-Report-to-Each-Employee.sql
 	EndProjectSection
 EndProject
 Global
