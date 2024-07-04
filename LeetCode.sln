@@ -35,6 +35,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{E2261B31-807
 		28_Biggest-Single-Number.sql = 28_Biggest-Single-Number.sql
 		29_Customers-Who-Bought-All-Products.sql = 29_Customers-Who-Bought-All-Products.sql
 		30_The-Number-of-Employees-Which-Report-to-Each-Employee.sql = 30_The-Number-of-Employees-Which-Report-to-Each-Employee.sql
+		31_Primary-Department-for-Each-Employee.sql = 31_Primary-Department-for-Each-Employee.sql
+		32_Triangle-Judgement.sql = 32_Triangle-Judgement.sql
+		33_Consecutive-Numbers.sql = 33_Consecutive-Numbers.sql
+		34_Product-Price-at-a-Given-Date.sql = 34_Product-Price-at-a-Given-Date.sql
+		35_Last-Person-to-Fit-in-the-Bus.sql = 35_Last-Person-to-Fit-in-the-Bus.sql
+		36_Count-Salary-Categories.sql = 36_Count-Salary-Categories.sql
+		37_Employees-Whose-Manager-Left-the-Company.sql = 37_Employees-Whose-Manager-Left-the-Company.sql
+		38_Exchange_Seats.sql = 38_Exchange_Seats.sql
+		39_Movie-Rating.sql = 39_Movie-Rating.sql
+		40_Restaurant-Growth.sql = 40_Restaurant-Growth.sql
 	EndProjectSection
 EndProject
 Global
