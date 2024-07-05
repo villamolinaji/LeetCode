@@ -45,6 +45,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{E2261B31-807
 		38_Exchange_Seats.sql = 38_Exchange_Seats.sql
 		39_Movie-Rating.sql = 39_Movie-Rating.sql
 		40_Restaurant-Growth.sql = 40_Restaurant-Growth.sql
+		41_Friend-Requests-II-Who-Has-the-Most-Friends.sql = 41_Friend-Requests-II-Who-Has-the-Most-Friends.sql
+		42_Investmenst-in-2016.sql = 42_Investmenst-in-2016.sql
+		43_Department-Top-Three-Salaries.sql = 43_Department-Top-Three-Salaries.sql
+		44_Fix-Names-in-a-Table.sql = 44_Fix-Names-in-a-Table.sql
+		45_Patients-With-a-Condition.sql = 45_Patients-With-a-Condition.sql
+		46_Delete-Duplicate-Emails.sql = 46_Delete-Duplicate-Emails.sql
+		47_Second-Highest-Salary.sql = 47_Second-Highest-Salary.sql
+		48_Group-Sold-Products-By-The-Date.sql = 48_Group-Sold-Products-By-The-Date.sql
+		49_List-the-Products-Ordered-in-aPeriod.sql = 49_List-the-Products-Ordered-in-aPeriod.sql
+		50_Find-Users-WIth-Valid-E-mails.sql = 50_Find-Users-WIth-Valid-E-mails.sql
 	EndProjectSection
 EndProject
 Global
