@@ -1,7 +1,7 @@
 ﻿#pragma warning disable S125 // Sections of code should not be commented out
 using LeetCode75;
 
-var solution = new Solution22();
+var solution = new Solution26();
 
 //var outptut = solution.MergeAlternately("abcd", "pq");
 //var outptut = solution.GcdOfStrings("LEET", "CODE");
@@ -24,7 +24,11 @@ var solution = new Solution22();
 //var outptut = solution.PivotIndex([1, 7, 3, 6, 5, 6]);
 //var outptut = solution.FindDifference([1, 2, 3], [2, 4, 6]);
 //var outptut = solution.UniqueOccurrences([1, 2, 2, 1, 1, 3]);
-var outptut = solution.CloseStrings("cabbba", "abbccc");
+//var outptut = solution.CloseStrings("cabbba", "abbccc");
+//var outptut = Solution23.EqualPairs([[3, 1, 2, 2], [1, 4, 4, 5], [2, 4, 2, 2], [2, 4, 2, 2]]);
+//var outptut = solution.RemoveStars("v*u*q*txwx**v***hs*cl*c***ci**n*e*t*z*c*sjae****z*ux*ka*z*z*c*fv**g**w*k");
+//var outptut = solution.AsteroidCollision([1, -2, 2, -1]);
+var outptut = solution.DecodeString("3[a2[c]]");
 
 Console.WriteLine(outptut);
 #pragma warning restore S125 // Sections of code should not be commented out
