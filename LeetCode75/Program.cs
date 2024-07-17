@@ -1,7 +1,7 @@
 ﻿#pragma warning disable S125 // Sections of code should not be commented out
 using LeetCode75;
 
-var solution = new Solution26();
+var solution = new Solution29();
 
 //var outptut = solution.MergeAlternately("abcd", "pq");
 //var outptut = solution.GcdOfStrings("LEET", "CODE");
@@ -28,7 +28,24 @@ var solution = new Solution26();
 //var outptut = Solution23.EqualPairs([[3, 1, 2, 2], [1, 4, 4, 5], [2, 4, 2, 2], [2, 4, 2, 2]]);
 //var outptut = solution.RemoveStars("v*u*q*txwx**v***hs*cl*c***ci**n*e*t*z*c*sjae****z*ux*ka*z*z*c*fv**g**w*k");
 //var outptut = solution.AsteroidCollision([1, -2, 2, -1]);
-var outptut = solution.DecodeString("3[a2[c]]");
+//var outptut = solution.DecodeString("3[a2[c]]");
+//var outptut = solution.PredictPartyVictory("DDDRRRRR");
+var listNode1 = new ListNode(1);
+//var listNode2 = new ListNode(3);
+//var listNode3 = new ListNode(4);
+//var listNode4 = new ListNode(7);
+//var listNode5 = new ListNode(1);
+//var listNode6 = new ListNode(2);
+//var listNode7 = new ListNode(6);
+//listNode1.next = listNode2;
+//listNode2.next = listNode3;
+//listNode3.next = listNode4;
+//listNode4.next = listNode5;
+//listNode5.next = listNode6;
+//listNode6.next = listNode7;
+
+var outptut = solution.DeleteMiddle(listNode1);
+
 
 Console.WriteLine(outptut);
 #pragma warning restore S125 // Sections of code should not be commented out
