@@ -1,7 +1,7 @@
 ﻿#pragma warning disable S125 // Sections of code should not be commented out
 using LeetCode75;
 
-var solution = new Solution29();
+var solution = new Solution35();
 
 //var outptut = solution.MergeAlternately("abcd", "pq");
 //var outptut = solution.GcdOfStrings("LEET", "CODE");
@@ -30,22 +30,30 @@ var solution = new Solution29();
 //var outptut = solution.AsteroidCollision([1, -2, 2, -1]);
 //var outptut = solution.DecodeString("3[a2[c]]");
 //var outptut = solution.PredictPartyVictory("DDDRRRRR");
-var listNode1 = new ListNode(1);
-//var listNode2 = new ListNode(3);
-//var listNode3 = new ListNode(4);
-//var listNode4 = new ListNode(7);
-//var listNode5 = new ListNode(1);
-//var listNode6 = new ListNode(2);
-//var listNode7 = new ListNode(6);
+//var listNode1 = new ListNode(5);
+//var listNode2 = new ListNode(4);
+//var listNode3 = new ListNode(2);
+//var listNode4 = new ListNode(1);
 //listNode1.next = listNode2;
 //listNode2.next = listNode3;
 //listNode3.next = listNode4;
-//listNode4.next = listNode5;
-//listNode5.next = listNode6;
-//listNode6.next = listNode7;
-
-var outptut = solution.DeleteMiddle(listNode1);
-
+//var outptut = solution.DeleteMiddle(listNode1);
+//var outptut = solution.ReverseList(listNode1);
+//var outptut = solution.PairSum(listNode1);
+var treeNode1 = new TreeNode(3);
+var treeNode2 = new TreeNode(1);
+var treeNode3 = new TreeNode(4);
+var treeNode4 = new TreeNode(3);
+var treeNode5 = new TreeNode(1);
+var treeNode6 = new TreeNode(5);
+treeNode1.left = treeNode2;
+treeNode1.right = treeNode3;
+treeNode2.left = treeNode4;
+treeNode3.left = treeNode5;
+treeNode3.right = treeNode6;
+//var outptut = solution.MaxDepth(treeNode1);
+//var outptut = solution.LeafSimilar(treeNode1, treeNodeb1);
+var outptut = solution.GoodNodes(treeNode1);
 
 Console.WriteLine(outptut);
 #pragma warning restore S125 // Sections of code should not be commented out
