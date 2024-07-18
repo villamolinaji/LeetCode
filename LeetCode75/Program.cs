@@ -1,7 +1,7 @@
 ﻿#pragma warning disable S125 // Sections of code should not be commented out
 using LeetCode75;
 
-var solution = new Solution35();
+var solution = new Solution38();
 
 //var outptut = solution.MergeAlternately("abcd", "pq");
 //var outptut = solution.GcdOfStrings("LEET", "CODE");
@@ -41,19 +41,30 @@ var solution = new Solution35();
 //var outptut = solution.ReverseList(listNode1);
 //var outptut = solution.PairSum(listNode1);
 var treeNode1 = new TreeNode(3);
-var treeNode2 = new TreeNode(1);
-var treeNode3 = new TreeNode(4);
-var treeNode4 = new TreeNode(3);
-var treeNode5 = new TreeNode(1);
-var treeNode6 = new TreeNode(5);
+var treeNode2 = new TreeNode(5);
+var treeNode3 = new TreeNode(1);
+var treeNode4 = new TreeNode(6);
+var treeNode5 = new TreeNode(2);
+var treeNode6 = new TreeNode(0);
+var treeNode7 = new TreeNode(8);
+var treeNode8 = new TreeNode(7);
+var treeNode9 = new TreeNode(4);
+var treeNodeP = new TreeNode(5);
+var treeNodeQ = new TreeNode(1);
 treeNode1.left = treeNode2;
 treeNode1.right = treeNode3;
 treeNode2.left = treeNode4;
-treeNode3.left = treeNode5;
-treeNode3.right = treeNode6;
+treeNode2.right = treeNode5;
+treeNode3.left = treeNode6;
+treeNode3.right = treeNode7;
+treeNode5.left = treeNode8;
+treeNode5.right = treeNode9;
 //var outptut = solution.MaxDepth(treeNode1);
 //var outptut = solution.LeafSimilar(treeNode1, treeNodeb1);
-var outptut = solution.GoodNodes(treeNode1);
+//var outptut = solution.GoodNodes(treeNode1);
+//var outptut = solution.PathSum(treeNode1, 0);
+//var outptut = solution.LongestZigZag(treeNode1);
+var outptut = solution.LowestCommonAncestor(treeNode1, treeNodeP, treeNodeQ);
 
 Console.WriteLine(outptut);
 #pragma warning restore S125 // Sections of code should not be commented out
