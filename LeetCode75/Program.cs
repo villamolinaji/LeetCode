@@ -1,7 +1,7 @@
 ﻿#pragma warning disable S125 // Sections of code should not be commented out
 using LeetCode75;
 
-var solution = new Solution42();
+var solution = new Solution44();
 
 //var outptut = solution.MergeAlternately("abcd", "pq");
 //var outptut = solution.GcdOfStrings("LEET", "CODE");
@@ -60,7 +60,9 @@ treeNode3.right = treeNode6;
 //var outptut = solution.RightSideView(treeNode1);
 //var outptut = solution.MaxLevelSum(treeNode1);
 //var outptut = solution.SearchBST(treeNode1, 2);
-var outptut = solution.DeleteNode(treeNode1, 3);
+//var outptut = solution.DeleteNode(treeNode1, 3);
+//var outptut = solution.CanVisitAllRooms([[1, 3], [3, 0, 1], [2], [0]]);
+var outptut = solution.FindCircleNum([[1, 1, 0], [1, 1, 0], [0, 0, 1]]);
 
 Console.WriteLine(outptut);
 #pragma warning restore S125 // Sections of code should not be commented out
