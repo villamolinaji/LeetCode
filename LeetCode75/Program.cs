@@ -1,7 +1,7 @@
 ﻿#pragma warning disable S125 // Sections of code should not be commented out
 using LeetCode75;
 
-var solution = new Solution44();
+var solution = new Solution48();
 
 //var outptut = solution.MergeAlternately("abcd", "pq");
 //var outptut = solution.GcdOfStrings("LEET", "CODE");
@@ -62,7 +62,11 @@ treeNode3.right = treeNode6;
 //var outptut = solution.SearchBST(treeNode1, 2);
 //var outptut = solution.DeleteNode(treeNode1, 3);
 //var outptut = solution.CanVisitAllRooms([[1, 3], [3, 0, 1], [2], [0]]);
-var outptut = solution.FindCircleNum([[1, 1, 0], [1, 1, 0], [0, 0, 1]]);
+//var outptut = solution.FindCircleNum([[1, 1, 0], [1, 1, 0], [0, 0, 1]]);
+//var outptut = solution.MinReorder(6, [[0, 1], [1, 3], [2, 3], [4, 0], [4, 5]]);
+//var outptut = solution.CalcEquation([["a", "b"], ["b", "c"]], [2.0, 3.0], [["a", "c"], ["b", "a"], ["a", "e"], ["a", "a"], ["x", "x"]]);
+//var outptut = solution.NearestExit([["+", "+", ".", "+"], [".", ".", ".", "+"], ["+", "+", "+", "."]], [1,2]);
+var outptut = solution.OrangesRotting([[2, 1, 1], [1, 1, 0], [0, 1, 1]]);
 
 Console.WriteLine(outptut);
 #pragma warning restore S125 // Sections of code should not be commented out
