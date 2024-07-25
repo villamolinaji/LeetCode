@@ -1,7 +1,7 @@
 ﻿#pragma warning disable S125 // Sections of code should not be commented out
 using LeetCode75;
 
-var solution = new Solution52();
+var solution = new Solution56();
 
 //var outptut = solution.MergeAlternately("abcd", "pq");
 //var outptut = solution.GcdOfStrings("LEET", "CODE");
@@ -69,7 +69,11 @@ treeNode3.right = treeNode6;
 //var outptut = solution.OrangesRotting([[2, 1, 1], [1, 1, 0], [0, 1, 1]]);
 //var outptut = solution.FindKthLargest([3, 2, 1, 5, 6, 4], 2);
 //var outptut = solution.MaxScore([1, 3, 3, 2], [2, 1, 3, 4], 3);
-var outptut = solution.TotalCost([17, 12, 10, 2, 7, 2, 11, 20, 8], 3, 3);
+//var outptut = solution.TotalCost([17, 12, 10, 2, 7, 2, 11, 20, 8], 3, 3);
+//var outptut = solution.GuessNumber(2);
+//var outptut = solution.SuccessfulPairs([5, 1, 3], [1, 2, 3, 4, 5], 7);
+//var outptut = solution.FindPeakElement([1, 2, 3, 1]);
+var outptut = solution.MinEatingSpeed([332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184], 823855818);
 
 Console.WriteLine(outptut);
 #pragma warning restore S125 // Sections of code should not be commented out
