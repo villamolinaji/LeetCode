@@ -1,7 +1,7 @@
 ﻿#pragma warning disable S125 // Sections of code should not be commented out
 using LeetCode75;
 
-var solution = new Solution56();
+var solution = new Solution69();
 
 //var outptut = solution.MergeAlternately("abcd", "pq");
 //var outptut = solution.GcdOfStrings("LEET", "CODE");
@@ -40,17 +40,17 @@ var solution = new Solution56();
 //var outptut = solution.DeleteMiddle(listNode1);
 //var outptut = solution.ReverseList(listNode1);
 //var outptut = solution.PairSum(listNode1);
-var treeNode1 = new TreeNode(5);
-var treeNode2 = new TreeNode(3);
-var treeNode3 = new TreeNode(6);
-var treeNode4 = new TreeNode(2);
-var treeNode5 = new TreeNode(4);
-var treeNode6 = new TreeNode(7);
-treeNode1.left = treeNode2;
-treeNode1.right = treeNode3;
-treeNode2.left = treeNode4;
-treeNode2.right = treeNode5;
-treeNode3.right = treeNode6;
+//var treeNode1 = new TreeNode(5);
+//var treeNode2 = new TreeNode(3);
+//var treeNode3 = new TreeNode(6);
+//var treeNode4 = new TreeNode(2);
+//var treeNode5 = new TreeNode(4);
+//var treeNode6 = new TreeNode(7);
+//treeNode1.left = treeNode2;
+//treeNode1.right = treeNode3;
+//treeNode2.left = treeNode4;
+//treeNode2.right = treeNode5;
+//treeNode3.right = treeNode6;
 //var outptut = solution.MaxDepth(treeNode1);
 //var outptut = solution.LeafSimilar(treeNode1, treeNodeb1);
 //var outptut = solution.GoodNodes(treeNode1);
@@ -73,7 +73,20 @@ treeNode3.right = treeNode6;
 //var outptut = solution.GuessNumber(2);
 //var outptut = solution.SuccessfulPairs([5, 1, 3], [1, 2, 3, 4, 5], 7);
 //var outptut = solution.FindPeakElement([1, 2, 3, 1]);
-var outptut = solution.MinEatingSpeed([332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184], 823855818);
+//var outptut = solution.MinEatingSpeed([332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184], 823855818);
+//var outptut = solution.LetterCombinations("23");
+//var outptut = solution.CombinationSum3(3, 7);
+//var outptut = solution.Tribonacci(1);
+//var outptut = solution.MinCostClimbingStairs([1, 100, 1, 1, 1, 100, 1, 1, 100, 1]);
+//var outptut = solution.Rob([0]);
+//var outptut = solution.NumTilings(3);
+//var outptut = solution.UniquePaths(3, 7);
+//var outptut = solution.LongestCommonSubsequence("abcde", "ace");
+//var outptut = solution.MaxProfit([1, 3, 2, 8, 4, 9], 2);
+//var outptut = solution.MinDistance("horse", "ros");
+//var outptut = solution.CountBits(2);
+//var outptut = solution.SingleNumber([2, 2, 1]);
+var outptut = solution.MinFlips(5, 2, 8);
 
 Console.WriteLine(outptut);
 #pragma warning restore S125 // Sections of code should not be commented out
