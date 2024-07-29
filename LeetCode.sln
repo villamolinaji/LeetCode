@@ -120,7 +120,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "405", "WeeklyContest\405\40
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode75", "LeetCode75\LeetCode75.csproj", "{40842032-F582-4D61-9D1B-B64C5FC070EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyChallenge", "DailyChallenge\DailyChallenge.csproj", "{9535565A-B7B6-4A2C-B953-41E38A103B6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyChallenge", "DailyChallenge\DailyChallenge.csproj", "{9535565A-B7B6-4A2C-B953-41E38A103B6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopInterview150", "TopInterview150\TopInterview150.csproj", "{F9B3A7F6-D6EB-405D-8F33-0192FC3CC709}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -144,6 +146,10 @@ Global
 		{9535565A-B7B6-4A2C-B953-41E38A103B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9535565A-B7B6-4A2C-B953-41E38A103B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9535565A-B7B6-4A2C-B953-41E38A103B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9B3A7F6-D6EB-405D-8F33-0192FC3CC709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B3A7F6-D6EB-405D-8F33-0192FC3CC709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B3A7F6-D6EB-405D-8F33-0192FC3CC709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B3A7F6-D6EB-405D-8F33-0192FC3CC709}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
