@@ -1,6 +1,6 @@
 ﻿namespace DailyChallenge
 {
-	public class Solution01
+	public class Solution001
 	{
 #pragma warning disable S2368 // Public methods should not have multidimensional array parameters
 		public int FindTheCity(int n, int[][] edges, int distanceThreshold)
