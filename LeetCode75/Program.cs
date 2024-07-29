@@ -1,7 +1,7 @@
 ﻿#pragma warning disable S125 // Sections of code should not be commented out
 using LeetCode75;
 
-var solution = new Solution69();
+var solution = new Solution74();
 
 //var outptut = solution.MergeAlternately("abcd", "pq");
 //var outptut = solution.GcdOfStrings("LEET", "CODE");
@@ -86,7 +86,20 @@ var solution = new Solution69();
 //var outptut = solution.MinDistance("horse", "ros");
 //var outptut = solution.CountBits(2);
 //var outptut = solution.SingleNumber([2, 2, 1]);
-var outptut = solution.MinFlips(5, 2, 8);
+//var outptut = solution.MinFlips(5, 2, 8);
+//var outptut = solution.SuggestedProducts(["mobile", "mouse", "moneypot", "monitor", "mousepad"], "mouse");
+//var outptut = solution.EraseOverlapIntervals([[1, 2], [2, 3], [3, 4], [1, 3]]);
+//var outptut = solution.FindMinArrowShots([[10, 16], [2, 8], [1, 6], [7, 12]]);
+//var outptut = solution.DailyTemperatures([73, 74, 75, 71, 69, 72, 76, 73]);
 
-Console.WriteLine(outptut);
+StockSpanner stockSpanner = new StockSpanner();
+stockSpanner.Next(100); // return 1
+stockSpanner.Next(80);  // return 1
+stockSpanner.Next(60);  // return 1
+stockSpanner.Next(70);  // return 2
+stockSpanner.Next(60);  // return 1
+stockSpanner.Next(75);  // return 4, because the last 4 prices (including today's price of 75) were less than or equal to today's price.
+stockSpanner.Next(85);  // return 6
+
+//Console.WriteLine(outptut);
 #pragma warning restore S125 // Sections of code should not be commented out
