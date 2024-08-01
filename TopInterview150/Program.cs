@@ -1,6 +1,6 @@
 ﻿using TopInterview150;
 
-var solution = new Solution010();
+var solution = new Solution016();
 
 #pragma warning disable S125 // Sections of code should not be commented out
 
@@ -12,7 +12,11 @@ var solution = new Solution010();
 //var output = solution.MaxProfit([7, 1, 5, 3, 6, 4]);
 //var output = solution.MaxProfit([7, 1, 5, 3, 6, 4]);
 //var output = solution.CanJump([0]);
-var output = solution.Jump([2, 3, 1, 1, 4]);
+//var output = solution.Jump([2, 3, 1, 1, 4]);
+//var output = solution.HIndex([3, 0, 6, 1, 5]);
+//var output = solution.CanCompleteCircuit([1, 2, 3, 4, 5], [3, 4, 5, 1, 2]);
+//var output = solution.Candy([1, 0, 2]);
+var output = solution.Trap([0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]);
 
 #pragma warning restore S125 // Sections of code should not be commented out
 
