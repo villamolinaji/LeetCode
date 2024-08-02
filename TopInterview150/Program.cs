@@ -1,6 +1,6 @@
 ﻿using TopInterview150;
 
-var solution = new Solution016();
+var solution = new Solution023();
 
 #pragma warning disable S125 // Sections of code should not be commented out
 
@@ -16,7 +16,13 @@ var solution = new Solution016();
 //var output = solution.HIndex([3, 0, 6, 1, 5]);
 //var output = solution.CanCompleteCircuit([1, 2, 3, 4, 5], [3, 4, 5, 1, 2]);
 //var output = solution.Candy([1, 0, 2]);
-var output = solution.Trap([0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]);
+//var output = solution.Trap([0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]);
+//var output = solution.RomanToInt("III");
+//var output = solution.IntToRoman(3749);
+//var output = solution.LengthOfLastWord("Hello World");
+//var output = solution.LongestCommonPrefix(["reflower", "flow", "flight"]);
+//var output = solution.Convert("AB", 1);
+var output = solution.StrStr("sadbutsad", "sad");
 
 #pragma warning restore S125 // Sections of code should not be commented out
 
