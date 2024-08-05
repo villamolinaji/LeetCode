@@ -1,6 +1,6 @@
 ﻿using TopInterview150;
 
-var solution = new Solution023();
+var solution = new Solution033();
 
 #pragma warning disable S125 // Sections of code should not be commented out
 
@@ -22,7 +22,15 @@ var solution = new Solution023();
 //var output = solution.LengthOfLastWord("Hello World");
 //var output = solution.LongestCommonPrefix(["reflower", "flow", "flight"]);
 //var output = solution.Convert("AB", 1);
-var output = solution.StrStr("sadbutsad", "sad");
+//var output = solution.StrStr("sadbutsad", "sad");
+//var output = solution.FullJustify(["What", "must", "be", "acknowledgment", "shall", "be"], 16);
+//var output = solution.IsPalindrome("A man, a plan, a canal: Panama");
+//var output = solution.TwoSum([-1, -1, 1, 1, 1, 1], -2);
+//var output = solution.ThreeSum([-1, 0, 1, 2, -1, -4]);
+//var output = solution.MinSubArrayLen(213, [12, 28, 83, 4, 25, 26, 25, 2, 25, 25, 25, 12]);
+//var output = solution.LengthOfLongestSubstring("abcabcbb");
+//var output = solution.FindSubstring("barfoothefoobarman", ["foo", "bar"]);
+var output = solution.MinWindow("ADOBECODEBANC", "ABC");
 
 #pragma warning restore S125 // Sections of code should not be commented out
 
