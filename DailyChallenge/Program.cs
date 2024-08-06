@@ -1,6 +1,6 @@
 ﻿using DailyChallenge;
 
-var solution = new Solution007();
+var solution = new Solution008();
 
 #pragma warning disable S125 // Sections of code should not be commented out
 
@@ -10,7 +10,8 @@ var solution = new Solution007();
 //var outptut = solution.MinHeightShelves([[1, 1], [2, 3], [2, 3], [1, 1], [1, 1], [1, 1], [1, 2]], 4);
 //var outptut = solution.CountSeniors(["7868190130M7522", "5303914400F9211", "9273338290F4010"]);
 //var outptut = solution.MinSwaps([0, 1, 0, 1, 1, 0, 0]);
-var outptut = solution.KthDistinct(["d", "b", "c", "b", "c", "a"], 2);
+//var outptut = solution.KthDistinct(["d", "b", "c", "b", "c", "a"], 2);
+var outptut = solution.MinimumPushes("aabbccddeeffgghhiiiiii");
 
 #pragma warning restore S125 // Sections of code should not be commented out
 
