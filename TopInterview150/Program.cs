@@ -1,6 +1,6 @@
 ﻿using TopInterview150;
 
-var solution = new Solution033();
+var solution = new Solution046();
 
 #pragma warning disable S125 // Sections of code should not be commented out
 
@@ -30,7 +30,20 @@ var solution = new Solution033();
 //var output = solution.MinSubArrayLen(213, [12, 28, 83, 4, 25, 26, 25, 2, 25, 25, 25, 12]);
 //var output = solution.LengthOfLongestSubstring("abcabcbb");
 //var output = solution.FindSubstring("barfoothefoobarman", ["foo", "bar"]);
-var output = solution.MinWindow("ADOBECODEBANC", "ABC");
+//var output = solution.MinWindow("ADOBECODEBANC", "ABC");
+//var output = solution.SpiralOrder([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]]);
+//solution.Rotate([[1, 2, 3], [4, 5, 6], [7, 8, 9]]);
+//solution.SetZeroes([[1, 1, 1], [1, 0, 1], [1, 1, 1]]);
+//solution.GameOfLife([[1, 1], [1, 0]]);
+//var output = solution.CanConstruct("a", "b");
+//var output = solution.IsIsomorphic("bbbaaaba", "aaabbbba");
+//var output = solution.WordPattern("abba", "dog dog dog dog");
+//var output = solution.IsAnagram("anagram", "nagaram");
+//var output = solution.GroupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]);
+//var output = solution.TwoSum([2, 7, 11, 15], 9);
+//var output = solution.IsHappy(2);
+var output = solution.ContainsNearbyDuplicate([1, 2, 3, 1], 3);
+
 
 #pragma warning restore S125 // Sections of code should not be commented out
 
