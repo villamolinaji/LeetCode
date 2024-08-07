@@ -1,6 +1,6 @@
 ﻿using DailyChallenge;
 
-var solution = new Solution008();
+var solution = new Solution009();
 
 #pragma warning disable S125 // Sections of code should not be commented out
 
@@ -11,7 +11,8 @@ var solution = new Solution008();
 //var outptut = solution.CountSeniors(["7868190130M7522", "5303914400F9211", "9273338290F4010"]);
 //var outptut = solution.MinSwaps([0, 1, 0, 1, 1, 0, 0]);
 //var outptut = solution.KthDistinct(["d", "b", "c", "b", "c", "a"], 2);
-var outptut = solution.MinimumPushes("aabbccddeeffgghhiiiiii");
+//var outptut = solution.MinimumPushes("aabbccddeeffgghhiiiiii");
+var outptut = solution.NumberToWords(1234567);
 
 #pragma warning restore S125 // Sections of code should not be commented out
 
