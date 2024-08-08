@@ -1,6 +1,6 @@
 ﻿using TopInterview150;
 
-var solution = new Solution046();
+var solution = new Solution049();
 
 #pragma warning disable S125 // Sections of code should not be commented out
 
@@ -42,8 +42,10 @@ var solution = new Solution046();
 //var output = solution.GroupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]);
 //var output = solution.TwoSum([2, 7, 11, 15], 9);
 //var output = solution.IsHappy(2);
-var output = solution.ContainsNearbyDuplicate([1, 2, 3, 1], 3);
-
+//var output = solution.ContainsNearbyDuplicate([1, 2, 3, 1], 3);
+//var output = solution.LongestConsecutive([1, 2, 0, 1]);
+//var output = solution.SummaryRanges([0, 2, 3, 4, 6, 8, 9]);
+var output = solution.Merge([[2, 3], [4, 5], [6, 7], [8, 9], [1, 10]]);
 
 #pragma warning restore S125 // Sections of code should not be commented out
 
