@@ -2,9 +2,7 @@
 {
 	public class Solution44
 	{
-#pragma warning disable S2368 // Public methods should not have multidimensional array parameters
 		public int FindCircleNum(int[][] isConnected)
-#pragma warning restore S2368 // Public methods should not have multidimensional array parameters
 		{
 			int sConnectedLength = isConnected.Length;
 			bool[] visited = new bool[sConnectedLength];

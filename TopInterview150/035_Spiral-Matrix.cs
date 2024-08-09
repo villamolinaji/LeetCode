@@ -2,9 +2,7 @@
 {
 	public class Solution035
 	{
-#pragma warning disable S2368 // Public methods should not have multidimensional array parameters
 		public IList<int> SpiralOrder(int[][] matrix)
-#pragma warning restore S2368 // Public methods should not have multidimensional array parameters
 		{
 			var result = new List<int>();
 			var rowLength = matrix.Length;

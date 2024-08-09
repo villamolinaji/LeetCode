@@ -2,16 +2,14 @@
 {
 	public class Solution23
 	{
-#pragma warning disable S2368 // Public methods should not have multidimensional array parameters
 		public int EqualPairs(int[][] grid)
-#pragma warning restore S2368 // Public methods should not have multidimensional array parameters
 		{
 			int gridLength = grid.Length;
 			int countEqualPairs = 0;
-			
+
 			Dictionary<string, int> rowMap = new Dictionary<string, int>();
 			Dictionary<string, int> colMap = new Dictionary<string, int>();
-			
+
 			for (int r = 0; r < gridLength; r++)
 			{
 				string rowStr = string.Join(",", grid[r]);
@@ -24,7 +22,7 @@
 					rowMap[rowStr] = 1;
 				}
 			}
-			
+
 			for (int c = 0; c < gridLength; c++)
 			{
 				List<int> colList = new List<int>();

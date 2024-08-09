@@ -2,9 +2,7 @@
 {
 	public class Solution47
 	{
-#pragma warning disable S2368 // Public methods should not have multidimensional array parameters
 		public int NearestExit(char[][] maze, int[] entrance)
-#pragma warning restore S2368 // Public methods should not have multidimensional array parameters
 		{
 			int rows = maze.Length;
 			int cols = maze[0].Length;

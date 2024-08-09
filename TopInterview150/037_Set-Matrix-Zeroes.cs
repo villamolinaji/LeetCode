@@ -2,9 +2,7 @@
 {
 	public class Solution037
 	{
-#pragma warning disable S2368 // Public methods should not have multidimensional array parameters
 		public void SetZeroes(int[][] matrix)
-#pragma warning restore S2368 // Public methods should not have multidimensional array parameters
 		{
 			int rows = matrix.Length;
 			int cols = matrix[0].Length;

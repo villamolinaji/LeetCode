@@ -2,9 +2,7 @@
 {
 	public class Solution038
 	{
-#pragma warning disable S2368 // Public methods should not have multidimensional array parameters
 		public void GameOfLife(int[][] board)
-#pragma warning restore S2368 // Public methods should not have multidimensional array parameters
 		{
 			int rows = board.Length;
 			int cols = board[0].Length;

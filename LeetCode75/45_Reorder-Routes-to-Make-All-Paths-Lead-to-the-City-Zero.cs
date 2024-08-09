@@ -2,9 +2,7 @@
 {
 	public class Solution45
 	{
-#pragma warning disable S2368 // Public methods should not have multidimensional array parameters
 		public int MinReorder(int n, int[][] connections)
-#pragma warning restore S2368 // Public methods should not have multidimensional array parameters
 		{
 			List<List<(int, int)>> graph = new List<List<(int, int)>>();
 			for (int i = 0; i < n; i++)

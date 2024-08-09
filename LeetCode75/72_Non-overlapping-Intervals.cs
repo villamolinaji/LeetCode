@@ -2,9 +2,7 @@
 {
 	public class Solution72
 	{
-#pragma warning disable S2368 // Public methods should not have multidimensional array parameters
 		public int EraseOverlapIntervals(int[][] intervals)
-#pragma warning restore S2368 // Public methods should not have multidimensional array parameters
 		{
 			Array.Sort(intervals, (a, b) => a[1].CompareTo(b[1]));
 

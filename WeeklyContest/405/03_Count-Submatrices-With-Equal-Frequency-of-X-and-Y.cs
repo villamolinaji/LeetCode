@@ -2,28 +2,26 @@
 {
 	public static class Solution03
 	{
-#pragma warning disable S2368 // Public methods should not have multidimensional array parameters
 		public static int NumberOfSubmatrices(char[][] grid)
-#pragma warning restore S2368 // Public methods should not have multidimensional array parameters
 		{
 			int lengthX = grid.Length;
 			int lengthY = grid[0].Length;
-			
+
 			int[,] differences = new int[lengthX, lengthY];
 			bool[,] XY_find = new bool[lengthX, lengthY];
 
 			switch (grid[0][0])
 			{
-				case 'X': 
-					differences[0, 0] = 1; 
-					XY_find[0, 0] = true; 
+				case 'X':
+					differences[0, 0] = 1;
+					XY_find[0, 0] = true;
 					break;
-				case 'Y': 
-					differences[0, 0] = -1; 
+				case 'Y':
+					differences[0, 0] = -1;
 					break;
-				default: 
-					differences[0, 0] = 0; 
-					break;				
+				default:
+					differences[0, 0] = 0;
+					break;
 			}
 
 			for (int x = 1; x < lengthX; x++)
@@ -41,7 +39,7 @@
 					_ => differences[x - 1, 0]
 				};
 			}
-			
+
 			for (int y = 1; y < lengthY; y++)
 			{
 				if (grid[0][y] == 'X')

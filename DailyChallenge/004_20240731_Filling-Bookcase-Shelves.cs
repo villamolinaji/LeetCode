@@ -2,9 +2,7 @@
 {
 	public class Solution004
 	{
-#pragma warning disable S2368 // Public methods should not have multidimensional array parameters
 		public int MinHeightShelves(int[][] books, int shelfWidth)
-#pragma warning restore S2368 // Public methods should not have multidimensional array parameters
 		{
 			int booksLength = books.Length;
 			int[] dp = new int[booksLength + 1];

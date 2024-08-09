@@ -2,9 +2,7 @@
 {
 	public class Solution036
 	{
-#pragma warning disable S2368 // Public methods should not have multidimensional array parameters
 		public void Rotate(int[][] matrix)
-#pragma warning restore S2368 // Public methods should not have multidimensional array parameters
 		{
 			int matrixLength = matrix.Length;
 

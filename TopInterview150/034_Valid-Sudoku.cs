@@ -2,9 +2,7 @@
 {
 	public class Solution034
 	{
-#pragma warning disable S2368 // Public methods should not have multidimensional array parameters
 		public bool IsValidSudoku(char[][] board)
-#pragma warning restore S2368 // Public methods should not have multidimensional array parameters
 		{
 			HashSet<string> seen = new HashSet<string>();
 

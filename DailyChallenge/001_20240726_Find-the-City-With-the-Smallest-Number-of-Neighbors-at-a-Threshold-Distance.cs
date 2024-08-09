@@ -2,9 +2,7 @@
 {
 	public class Solution001
 	{
-#pragma warning disable S2368 // Public methods should not have multidimensional array parameters
 		public int FindTheCity(int n, int[][] edges, int distanceThreshold)
-#pragma warning restore S2368 // Public methods should not have multidimensional array parameters
 		{
 			int[,] nodeDistance = new int[n, n];
 

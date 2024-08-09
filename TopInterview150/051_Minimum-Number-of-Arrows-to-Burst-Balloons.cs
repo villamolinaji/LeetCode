@@ -1,6 +1,6 @@
-﻿namespace LeetCode75
+﻿namespace TopInterview150
 {
-	public class Solution73
+	public class Solution051
 	{
 		public int FindMinArrowShots(int[][] points)
 		{

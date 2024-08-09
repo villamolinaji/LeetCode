@@ -2,9 +2,7 @@
 {
 	public class Solution011
 	{
-#pragma warning disable S2368 // Public methods should not have multidimensional array parameters
 		public int NumMagicSquaresInside(int[][] grid)
-#pragma warning restore S2368 // Public methods should not have multidimensional array parameters
 		{
 			var numMagicSquares = 0;
 			var rows = grid.Length;
