@@ -1,6 +1,6 @@
 ﻿using DailyChallenge;
 
-var solution = new Solution010();
+var solution = new Solution011();
 
 #pragma warning disable S125 // Sections of code should not be commented out
 
@@ -13,7 +13,8 @@ var solution = new Solution010();
 //var outptut = solution.KthDistinct(["d", "b", "c", "b", "c", "a"], 2);
 //var outptut = solution.MinimumPushes("aabbccddeeffgghhiiiiii");
 //var outptut = solution.NumberToWords(1234567);
-var outptut = solution.SpiralMatrixIII(1, 4, 0, 0);
+//var outptut = solution.SpiralMatrixIII(1, 4, 0, 0);
+var outptut = solution.NumMagicSquaresInside([[4, 3, 8, 4], [9, 5, 1, 9], [2, 7, 6, 2]]);
 
 #pragma warning restore S125 // Sections of code should not be commented out
 
