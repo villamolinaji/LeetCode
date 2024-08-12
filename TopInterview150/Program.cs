@@ -1,6 +1,6 @@
 ﻿using TopInterview150;
 
-var solution = new Solution052();
+var solution = new Solution056();
 
 #pragma warning disable S125 // Sections of code should not be commented out
 
@@ -47,7 +47,10 @@ var solution = new Solution052();
 //var output = solution.SummaryRanges([0, 2, 3, 4, 6, 8, 9]);
 //var output = solution.Merge([[2, 3], [4, 5], [6, 7], [8, 9], [1, 10]]);
 //var output = solution.Insert([[1, 5]], [2, 3]);
-var output = solution.IsValid("()");
+//var output = solution.IsValid("()");
+//var output = solution.SimplifyPath("/../");
+//var output = solution.EvalRPN(["2", "1", "+", "3", "*"]);
+var output = solution.Calculate("2147483647");
 
 #pragma warning restore S125 // Sections of code should not be commented out
 
