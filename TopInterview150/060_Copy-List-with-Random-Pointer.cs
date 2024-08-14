@@ -1,4 +1,4 @@
-﻿namespace TopInterview150
+﻿namespace TopInterview150_060
 {
 	public class Node
 	{
