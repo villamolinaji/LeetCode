@@ -1,6 +1,6 @@
 ﻿using TopInterview150;
 
-var solution = new Solution056();
+var solution = new Solution148();
 
 #pragma warning disable S125 // Sections of code should not be commented out
 
@@ -50,7 +50,9 @@ var solution = new Solution056();
 //var output = solution.IsValid("()");
 //var output = solution.SimplifyPath("/../");
 //var output = solution.EvalRPN(["2", "1", "+", "3", "*"]);
-var output = solution.Calculate("2147483647");
+//var output = solution.Calculate("2147483647");
+//var output = solution.TrailingZeroes(7);
+var output = solution.MaxProfit([3, 3, 5, 0, 0, 3, 1, 4]);
 
 #pragma warning restore S125 // Sections of code should not be commented out
 
