@@ -1,6 +1,6 @@
 ﻿using DailyChallenge;
 
-var solution = new Solution015();
+var solution = new Solution021();
 
 #pragma warning disable S125 // Sections of code should not be commented out
 
@@ -17,7 +17,8 @@ var solution = new Solution015();
 //var outptut = solution.NumMagicSquaresInside([[4, 3, 8, 4], [9, 5, 1, 9], [2, 7, 6, 2]]);
 //var outptut = solution.CombinationSum2([10, 1, 2, 7, 6, 1, 5], 8);
 //var outptut = solution.SmallestDistancePair([1, 3, 1], 1);
-var outptut = solution.MaxDistance([[1, 4], [0, 5]]);
+//var outptut = solution.MaxDistance([[1, 4], [0, 5]]);
+var outptut = solution.NearestPalindromic("10001");
 
 #pragma warning restore S125 // Sections of code should not be commented out
 
