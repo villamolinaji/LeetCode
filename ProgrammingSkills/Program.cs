@@ -1,8 +1,8 @@
 ﻿
 using ProgrammingSkills;
 
-var solution = new Solution01();
+var solution = new Solution05();
 
-var outptut = solution.MergeAlternately("abc", "pqr");
+var outptut = solution.RepeatedSubstringPattern("babbabbabbabbab");
 
 Console.WriteLine(outptut);
