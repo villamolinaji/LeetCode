@@ -6,3 +6,8 @@
 using System.Diagnostics.CodeAnalysis;
 
 [assembly: SuppressMessage("Minor Code Smell", "S2325:Methods and properties that don't access instance data should be static", Justification = "<Pending>", Scope = "member", Target = "~M:BinarySearch.Solution01.Search(System.Int32[],System.Int32)~System.Int32")]
+[assembly: SuppressMessage("Minor Code Smell", "S2325:Methods and properties that don't access instance data should be static", Justification = "<Pending>", Scope = "member", Target = "~M:BinarySearch.Solution02.SearchInsert(System.Int32[],System.Int32)~System.Int32")]
+[assembly: SuppressMessage("Minor Code Smell", "S2325:Methods and properties that don't access instance data should be static", Justification = "<Pending>", Scope = "member", Target = "~M:BinarySearch.Solution03.NextGreatestLetter(System.Char[],System.Char)~System.Char")]
+[assembly: SuppressMessage("Major Code Smell", "S125:Sections of code should not be commented out", Justification = "<Pending>", Scope = "member", Target = "~M:BinarySearch.Solution03.NextGreatestLetter(System.Char[],System.Char)~System.Char")]
+[assembly: SuppressMessage("Minor Code Smell", "S2325:Methods and properties that don't access instance data should be static", Justification = "<Pending>", Scope = "member", Target = "~M:BinarySearch.Solution04.CountNegatives(System.Int32[][])~System.Int32")]
+[assembly: SuppressMessage("Minor Code Smell", "S2325:Methods and properties that don't access instance data should be static", Justification = "<Pending>", Scope = "member", Target = "~M:BinarySearch.Solution05.SearchRange(System.Int32[],System.Int32)~System.Int32[]")]
