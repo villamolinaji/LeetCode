@@ -2,7 +2,7 @@
 {
 	public class Solution32
 	{
-		public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
+		public ListNode? AddTwoNumbers(ListNode l1, ListNode l2)
 		{
 			var result = new ListNode(0);
 			var nextL1 = l1;

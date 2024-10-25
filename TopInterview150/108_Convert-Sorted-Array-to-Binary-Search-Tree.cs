@@ -2,12 +2,12 @@
 {
 	public class Solution108
 	{
-		public TreeNode SortedArrayToBST(int[] nums)
+		public TreeNode? SortedArrayToBST(int[] nums)
 		{
 			return DivideSortedArray(nums, 0, nums.Length - 1);
 		}
 
-		private TreeNode DivideSortedArray(int[] nums, int start, int end)
+		private TreeNode? DivideSortedArray(int[] nums, int start, int end)
 		{
 			if (start > end)
 			{

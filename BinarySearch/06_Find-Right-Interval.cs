@@ -1,6 +1,6 @@
 ﻿namespace BinarySearch
 {
-	public class Solution
+	public class Solution06
 	{
 		public int[] FindRightInterval(int[][] intervals)
 		{
